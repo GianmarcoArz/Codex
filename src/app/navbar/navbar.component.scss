@@ -1,3 +1,28 @@
 .pokedex {
   background-image: url("https://img.pokemondb.net/images/featured/pokedex-gsc.png");
 }
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffcc00;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffcc00;
+  color: #000;
+}
+
+.btn-danger:hover {
+  background-color: #cc0000;
+}
+
+.btn-warning:hover {
+  background-color: #ff9900;
+}

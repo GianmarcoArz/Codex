@@ -30,33 +30,33 @@
   "pokemonCards": [
     {
       "id": 1,
-      "immagine": "https://federicstore.it/wp-content/uploads/2022/11/049-195.png",
-      "nome": "Pikachu",
-      "descrizione": "Piccolo, giallo, elettrico, adorabile, giocoso, iconico, veloce, affettuoso, coraggioso, famoso.",
-      "forza": 35,
-      "difesa": 30,
-      "attacco": 55,
-      "tipo": "Elettrico"
+      "immagine": "https://federicstore.it/wp-content/uploads/2022/05/SM196-1.png",
+      "nome": "Mewtwo",
+      "descrizione": "Mewtwo è un Pokémon di tipo Psico, noto per la sua grande intelligenza e potere.",
+      "forza": 9873,
+      "difesa": 7520,
+      "attacco": 1100,
+      "tipo": "Psico"
     },
     {
       "id": 2,
-      "immagine": "https://federicstore.it/wp-content/uploads/2023/08/026-197-ossidianainfuocata.png",
-      "nome": "Charmander",
-      "descrizione": "Charmander è un Pokémon di tipo Fuoco con una fiamma.",
-      "forza": 52,
-      "difesa": 43,
-      "attacco": 60,
-      "tipo": "Fuoco"
+      "immagine": "https://federicstore.it/wp-content/uploads/2021/05/SWSH087.png",
+      "nome": "Eevee",
+      "descrizione": "Eevee è un Pokémon di tipo Normale con molte evoluzioni possibili.",
+      "forza": 55,
+      "difesa": 50,
+      "attacco": 55,
+      "tipo": "Normale"
     },
     {
       "id": 3,
-      "immagine": "https://federicstore.it/wp-content/uploads/2022/06/001-078-pokemongo.png",
-      "nome": "Bulbasaur",
-      "descrizione": "Bulbasaur è un Pokémon di tipo Erba/Veleno con un bulbo sulla schiena.",
-      "forza": 45,
-      "difesa": 49,
-      "attacco": 49,
-      "tipo": "Erba/Veleno"
+      "immagine": "https://federicstore.it/wp-content/uploads/2022/02/017-172v-astrilucenti.png",
+      "nome": "Charizard",
+      "descrizione": "Charizard è un Pokémon di tipo Fuoco/Volante, noto per il suo potere di volo e le fiamme.",
+      "forza": 11252,
+      "difesa": 12045,
+      "attacco": 98254,
+      "tipo": "Fuoco/Volante"
     },
     {
       "id": 4,
@@ -110,33 +110,33 @@
     },
     {
       "id": 9,
-      "immagine": "https://federicstore.it/wp-content/uploads/2022/05/SM196-1.png",
-      "nome": "Mewtwo",
-      "descrizione": "Mewtwo è un Pokémon di tipo Psico, noto per la sua grande intelligenza e potere.",
-      "forza": 106,
-      "difesa": 90,
-      "attacco": 110,
-      "tipo": "Psico"
+      "immagine": "https://federicstore.it/wp-content/uploads/2022/11/049-195.png",
+      "nome": "Pikachu",
+      "descrizione": "Piccolo, giallo, elettrico, adorabile, giocoso, iconico, veloce, affettuoso, coraggioso, famoso.",
+      "forza": 35,
+      "difesa": 30,
+      "attacco": 55,
+      "tipo": "Elettrico"
     },
     {
       "id": 10,
-      "immagine": "https://federicstore.it/wp-content/uploads/2021/05/SWSH087.png",
-      "nome": "Eevee",
-      "descrizione": "Eevee è un Pokémon di tipo Normale con molte evoluzioni possibili.",
-      "forza": 55,
-      "difesa": 50,
-      "attacco": 55,
-      "tipo": "Normale"
+      "immagine": "https://federicstore.it/wp-content/uploads/2023/08/026-197-ossidianainfuocata.png",
+      "nome": "Charmander",
+      "descrizione": "Charmander è un Pokémon di tipo Fuoco con una fiamma.",
+      "forza": 52,
+      "difesa": 43,
+      "attacco": 60,
+      "tipo": "Fuoco"
     },
     {
       "id": 11,
-      "immagine": "https://federicstore.it/wp-content/uploads/2022/02/017-172v-astrilucenti.png",
-      "nome": "Charizard",
-      "descrizione": "Charizard è un Pokémon di tipo Fuoco/Volante, noto per il suo potere di volo e le fiamme.",
-      "forza": 78,
-      "difesa": 75,
-      "attacco": 84,
-      "tipo": "Fuoco/Volante"
+      "immagine": "https://federicstore.it/wp-content/uploads/2022/06/001-078-pokemongo.png",
+      "nome": "Bulbasaur",
+      "descrizione": "Bulbasaur è un Pokémon di tipo Erba/Veleno con un bulbo sulla schiena.",
+      "forza": 45,
+      "difesa": 49,
+      "attacco": 49,
+      "tipo": "Erba/Veleno"
     }
   ]
 }

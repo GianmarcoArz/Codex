@@ -1,62 +1,74 @@
-<div class="bg-body-tertiaryp-5 rounded pokedex">
-  <div class="col-sm-8 mx-auto bg-white p-1">
-    <h1>POKEDEX</h1>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/770px-Pok%C3%A9_Ball_icon.svg.png"
+        alt="Pokedex Logo"
+        width="30"
+        height="30"
+        class="d-inline-block align-text-top"
+      />
+      Pokedex
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a routerLink="/home" routerLinkActive="active" class="nav-link"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            routerLink="/home/preferiti"
+            routerLinkActive="active"
+            class="nav-link text-danger"
+            >I TUOI PREFERITI NEL CODEX</a
+          >
+        </li>
+      </ul>
+      <div class="d-flex">
+        <a
+          *ngIf="!isLoggedIn"
+          routerLink="/auth/login"
+          class="btn btn-outline-light me-2"
+          >Login</a
+        >
+        <a
+          *ngIf="!isLoggedIn"
+          routerLink="/auth/register"
+          class="btn btn-danger"
+          >Sign-up</a
+        >
+        <button *ngIf="isLoggedIn" (click)="logout()" class="btn btn-warning">
+          Logout
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
 
-    <p>
+<div class="bg-body-tertiary p-5 rounded pokedex">
+  <div class="col-sm-8 mx-auto bg-white p-1 rounded-3">
+    <h1 class="text-danger font-monospace">POKEDEX</h1>
+
+    <var>
       Il Codex, noto anche come Pokédex, è un dispositivo presente nel mondo dei
       Pokémon che funge da enciclopedia per i vari Pokémon che i giocatori
       possono incontrare, catturare e allenare. Il Pokédex registra informazioni
       dettagliate su ogni Pokémon, incluso il loro habitat, le loro abilità, le
       evoluzioni e altro ancora. Ogni volta che un Pokémon viene visto o
       catturato, il Pokédex si aggiorna con nuove informazioni.
-    </p>
-
-    <p>
-      <a
-        routerLink="/home"
-        routerLinkActive="active"
-        class="nav-link px-2 text-black fs-2 text-"
-        >Home</a
-      >
-      <a
-        routerLink="/home/preferiti"
-        routerLinkActive="active"
-        class="nav-link px-2 text-danger"
-      >
-        LE TUE CARTE PREFERITE
-      </a>
-    </p>
-
-    <div class="text-end">
-      <a
-        *ngIf="!isLoggedIn"
-        routerLink="/auth/login"
-        type="button"
-        class="btn btn-outline-black me-2"
-        >Login</a
-      >
-      <a
-        *ngIf="!isLoggedIn"
-        routerLink="/auth/register"
-        type="button"
-        class="btn btn-danger"
-        >Sign-up</a
-      >
-      <button *ngIf="isLoggedIn" (click)="logout()" class="btn btn-warning">
-        Logout
-      </button>
-    </div>
+    </var>
   </div>
 </div>
-<ul
-  class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
->
-  <li>
-    <a
-      routerLink="/home"
-      routerLinkActive="active"
-      class="nav-link px-2 text-light"
-      >Home</a
-    >
-  </li>
-</ul>
