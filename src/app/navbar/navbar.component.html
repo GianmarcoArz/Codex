@@ -1,0 +1,62 @@
+<div class="bg-body-tertiaryp-5 rounded pokedex">
+  <div class="col-sm-8 mx-auto bg-white p-1">
+    <h1>POKEDEX</h1>
+
+    <p>
+      Il Codex, noto anche come Pokédex, è un dispositivo presente nel mondo dei
+      Pokémon che funge da enciclopedia per i vari Pokémon che i giocatori
+      possono incontrare, catturare e allenare. Il Pokédex registra informazioni
+      dettagliate su ogni Pokémon, incluso il loro habitat, le loro abilità, le
+      evoluzioni e altro ancora. Ogni volta che un Pokémon viene visto o
+      catturato, il Pokédex si aggiorna con nuove informazioni.
+    </p>
+
+    <p>
+      <a
+        routerLink="/home"
+        routerLinkActive="active"
+        class="nav-link px-2 text-black fs-2 text-"
+        >Home</a
+      >
+      <a
+        routerLink="/home/preferiti"
+        routerLinkActive="active"
+        class="nav-link px-2 text-danger"
+      >
+        LE TUE CARTE PREFERITE
+      </a>
+    </p>
+
+    <div class="text-end">
+      <a
+        *ngIf="!isLoggedIn"
+        routerLink="/auth/login"
+        type="button"
+        class="btn btn-outline-black me-2"
+        >Login</a
+      >
+      <a
+        *ngIf="!isLoggedIn"
+        routerLink="/auth/register"
+        type="button"
+        class="btn btn-danger"
+        >Sign-up</a
+      >
+      <button *ngIf="isLoggedIn" (click)="logout()" class="btn btn-warning">
+        Logout
+      </button>
+    </div>
+  </div>
+</div>
+<ul
+  class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+>
+  <li>
+    <a
+      routerLink="/home"
+      routerLinkActive="active"
+      class="nav-link px-2 text-light"
+      >Home</a
+    >
+  </li>
+</ul>

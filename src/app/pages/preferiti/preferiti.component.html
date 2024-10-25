@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="row p-5">
+    <h2 class="text-center mb-4 custom-title">I MIEI POKEMON PREFERITI</h2>
+    <div
+      class="col-md-4 mb-4"
+      *ngFor="let pokemon of favoritePokemons$ | async"
+    >
+      <div class="card h-100 shadow-sm">
+        <img
+          [src]="pokemon.immagine"
+          class="card-img-top img-fluid"
+          [alt]="pokemon.nome"
+        />
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title text-center">{{ pokemon.nome }}</h5>
+          <p class="card-text text-center">{{ pokemon.descrizione }}</p>
+          <ul class="list-group list-group-flush mt-auto">
+            <li class="list-group-item custom-list-item">
+              <strong>Tipo:</strong> {{ pokemon.tipo }}
+            </li>
+            <li class="list-group-item custom-list-item">
+              <strong>Forza:</strong> {{ pokemon.forza }}
+            </li>
+            <li class="list-group-item custom-list-item">
+              <strong>Difesa:</strong> {{ pokemon.difesa }}
+            </li>
+            <li class="list-group-item custom-list-item">
+              <strong>Attacco:</strong> {{ pokemon.attacco }}
+            </li>
+          </ul>
+          <div class="mt-auto">
+            <button
+              (click)="removeFromFavorites(pokemon.nome)"
+              class="btn btn-danger btn-block"
+            >
+              RIMUOVI DAI PREFERITI
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

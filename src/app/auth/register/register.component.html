@@ -1,0 +1,36 @@
+<body class="regpokedex">
+  <div class="container">
+    <h1 class="text-white">Registrati nel Pokedex</h1>
+    <form>
+      <input
+        type="text"
+        class="form-control mb-3"
+        placeholder="Nome Allenatore"
+        name="nome"
+        [(ngModel)]="formData.name"
+      />
+      <input
+        type="text"
+        class="form-control mb-3"
+        placeholder="Cognome da Allenatore"
+        name="cognome"
+        [(ngModel)]="formData.cognome"
+      />
+      <input
+        type="email"
+        class="form-control mb-3"
+        placeholder="Email"
+        name="email"
+        [(ngModel)]="formData.email"
+      />
+      <input
+        type="password"
+        class="form-control mb-3"
+        placeholder="Password"
+        name="password"
+        [(ngModel)]="formData.password"
+      />
+      <button (click)="register()" class="btn btn-danger">Registrati</button>
+    </form>
+  </div>
+</body>

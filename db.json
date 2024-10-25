@@ -1,0 +1,142 @@
+{
+  "users": [
+    {
+      "email": "gianmarcoarzanese@gmail.com",
+      "password": "$2a$10$EFHfMiMNWOrCTfwSuHo.Oe4i3mFTBzzheUeab5acltexdVFg5XZWy",
+      "name": "gianmarco",
+      "id": 1
+    },
+    {
+      "email": "riccardo@ric.it",
+      "password": "$2a$10$Lz2aK4xwilkQC13tXbsW/..1aH09L7190sDpzOgDWsRDIywOfPMUC",
+      "name": "riccardo",
+      "id": 2
+    },
+    {
+      "email": "michele@pirata.it",
+      "password": "$2a$10$d.PGJcFq5O.TDYNbimUuuee69KyevWBpfCE//3w2aT0gwvtwNF/Hq",
+      "name": "Michele",
+      "cognome": "Pirata",
+      "id": 3
+    },
+    {
+      "email": "federico@gmail.com",
+      "password": "$2a$10$fPddRVEVho4JAUjDYC5.3ew5O3U3WejclP2BI0F8w3A.YIGz1TuJy",
+      "name": "Federico",
+      "cognome": "Interseptor",
+      "id": 4
+    }
+  ],
+  "pokemonCards": [
+    {
+      "id": 1,
+      "immagine": "https://federicstore.it/wp-content/uploads/2022/11/049-195.png",
+      "nome": "Pikachu",
+      "descrizione": "Piccolo, giallo, elettrico, adorabile, giocoso, iconico, veloce, affettuoso, coraggioso, famoso.",
+      "forza": 35,
+      "difesa": 30,
+      "attacco": 55,
+      "tipo": "Elettrico"
+    },
+    {
+      "id": 2,
+      "immagine": "https://federicstore.it/wp-content/uploads/2023/08/026-197-ossidianainfuocata.png",
+      "nome": "Charmander",
+      "descrizione": "Charmander è un Pokémon di tipo Fuoco con una fiamma.",
+      "forza": 52,
+      "difesa": 43,
+      "attacco": 60,
+      "tipo": "Fuoco"
+    },
+    {
+      "id": 3,
+      "immagine": "https://federicstore.it/wp-content/uploads/2022/06/001-078-pokemongo.png",
+      "nome": "Bulbasaur",
+      "descrizione": "Bulbasaur è un Pokémon di tipo Erba/Veleno con un bulbo sulla schiena.",
+      "forza": 45,
+      "difesa": 49,
+      "attacco": 49,
+      "tipo": "Erba/Veleno"
+    },
+    {
+      "id": 4,
+      "immagine": "https://federicstore.it/wp-content/uploads/2022/08/SWSH233.png",
+      "nome": "Squirtle",
+      "descrizione": "Squirtle è un Pokémon di tipo Acqua con un guscio duro.",
+      "forza": 48,
+      "difesa": 65,
+      "attacco": 50,
+      "tipo": "Acqua"
+    },
+    {
+      "id": 5,
+      "immagine": "https://federicstore.it/wp-content/uploads/2023/06/083-193-evoluzioniapaldea.png",
+      "nome": "Jigglypuff",
+      "descrizione": "Jigglypuff è un Pokémon di tipo Normale/Fata che ama cantare.",
+      "forza": 115,
+      "difesa": 45,
+      "attacco": 70,
+      "tipo": "Normale/Fata"
+    },
+    {
+      "id": 6,
+      "immagine": "https://federicstore.it/wp-content/uploads/2023/09/052-165-151ita.png",
+      "nome": "Meowth",
+      "descrizione": "Meowth è un Pokémon di tipo Normale noto per la sua abilità di parlare.",
+      "forza": 40,
+      "difesa": 45,
+      "attacco": 45,
+      "tipo": "Normale"
+    },
+    {
+      "id": 7,
+      "immagine": "https://federicstore.it/wp-content/uploads/2022/06/055-078h-pokemongo.png",
+      "nome": "Snorlax",
+      "descrizione": "Snorlax è un Pokémon di tipo Normale che ama dormire.",
+      "forza": 160,
+      "difesa": 110,
+      "attacco": 110,
+      "tipo": "Normale"
+    },
+    {
+      "id": 8,
+      "immagine": "https://federicstore.it/wp-content/uploads/2024/01/057-091-destinodipaldea.png",
+      "nome": "Gengar",
+      "descrizione": "Gengar è un Pokémon di tipo Fantasma/Avvelenato noto per il suo sorriso inquietante.",
+      "forza": 60,
+      "difesa": 60,
+      "attacco": 130,
+      "tipo": "Fantasma/Avvelenato"
+    },
+    {
+      "id": 9,
+      "immagine": "https://federicstore.it/wp-content/uploads/2022/05/SM196-1.png",
+      "nome": "Mewtwo",
+      "descrizione": "Mewtwo è un Pokémon di tipo Psico, noto per la sua grande intelligenza e potere.",
+      "forza": 106,
+      "difesa": 90,
+      "attacco": 110,
+      "tipo": "Psico"
+    },
+    {
+      "id": 10,
+      "immagine": "https://federicstore.it/wp-content/uploads/2021/05/SWSH087.png",
+      "nome": "Eevee",
+      "descrizione": "Eevee è un Pokémon di tipo Normale con molte evoluzioni possibili.",
+      "forza": 55,
+      "difesa": 50,
+      "attacco": 55,
+      "tipo": "Normale"
+    },
+    {
+      "id": 11,
+      "immagine": "https://federicstore.it/wp-content/uploads/2022/02/017-172v-astrilucenti.png",
+      "nome": "Charizard",
+      "descrizione": "Charizard è un Pokémon di tipo Fuoco/Volante, noto per il suo potere di volo e le fiamme.",
+      "forza": 78,
+      "difesa": 75,
+      "attacco": 84,
+      "tipo": "Fuoco/Volante"
+    }
+  ]
+}
